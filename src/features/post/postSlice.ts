@@ -178,7 +178,7 @@ export const {
 export const selectIsLoadingPost = (state: RootState) =>
   state.post.isLoadingPost;
 export const selectOpenNewPost = (state: RootState) => state.post.openNewPost;
-export const selectProfile = (state: RootState) => state.post.posts;
-export const selectProfiles = (state: RootState) => state.post.comments;
+export const selectPosts = (state: RootState) => state.post.posts;
+export const selectComments = (state: RootState) => state.post.comments;
 
 export default postSlice.reducer;
