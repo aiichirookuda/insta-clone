@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
 import axios from 'axios';
 import { PROPS_AUTHEN, PROPS_PROFILE, PROPS_NICKNAME } from '../types';
-// import { AlternateEmail } from '@material-ui/icons';
 
 const apiUrl = process.env.REACT_APP_DEV_API_URL;
 
