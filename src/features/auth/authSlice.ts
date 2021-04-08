@@ -102,7 +102,7 @@ export const authSlice = createSlice({
       {
         id: 0,
         nickName: '',
-        useProfile: 0,
+        userProfile: 0,
         created_on: '',
         img: '',
       },
