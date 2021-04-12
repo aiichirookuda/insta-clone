@@ -40,6 +40,7 @@ import {
 } from '../post/postSlice';
 
 import Post from '../post/Post';
+import EditProfile from './EditProfile';
 
 const StyledBadge = withStyles((theme) => ({
   badge: {
@@ -97,6 +98,7 @@ const Core: React.FC = () => {
   return (
     <div>
       <Auth />
+      <EditProfile />
       <div className={styles.core_header}>
         <h1 className={styles.core_title}>SNS clone</h1>
         {profile?.nickName ? (
